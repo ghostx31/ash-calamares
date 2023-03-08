@@ -28,14 +28,15 @@ The examples are not exhaustive.
 /* ########## MAIN APPLICATION WINDOW ########## */
 
 #mainApp {
+  background-color: #eff1f5;
 }
 
 #mainText{
 	font : bold 16px;
+  color: #181825;
 }
 
 #sidebarApp {
-
 }
 
 #logoApp {
@@ -43,14 +44,19 @@ The examples are not exhaustive.
 
 #sidebarMenuApp {
 	padding: 3px;
-	background-color: #292F34;
+	background-color: #181825;
 }
 
 QWidget {
 	font: 16px;
 }
 
-QTextEdit, QListView {
+QTextEdit {
+  background-color: #1e1e2e;
+  color: #181825;
+}
+QListView {
+  /* background-color: #cba6f7; */
 }
 QDialogButtonBox {
 }
@@ -69,6 +75,8 @@ QListWidget::item:alternate {
 
 QPushButton {
     font : 16px;
+    /* background-color: #cba6f7; */
+    color: #181825;
 }
 
 QDialogButtonBox {
@@ -80,6 +88,8 @@ QDialogButtonBox {
 
 QListView {
 		font: 16px;
+    color: #181825;
+    /* background-color: #cba6f7; */
 }
 
 
@@ -261,19 +271,19 @@ QHeaderView::section {
 #debugButton {
 	background-color: none;
 	font: 12px;
-	color: #edecf0;
+	color: #cdd6f4;
   height: 32px;
   border: none;
 }
 
 #debugButton:hover {
-	color: #ff7f7f;
+	color: #f38ba8;
 }
 
 #aboutButton {
 	background-color: none;
 	font: 12px;
-	color: #edecf0;
+	color: #cdd6f4;
   height: 32px;
   border: none;
 }

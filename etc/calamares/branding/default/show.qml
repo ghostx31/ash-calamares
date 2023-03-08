@@ -71,7 +71,7 @@ Presentation
     Text {
         anchors.horizontalCenter: background.horizontalCenter
         anchors.top: background.bottom
-        text: "ALCI"
+        text: "Ash OS"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center

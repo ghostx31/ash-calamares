@@ -127,7 +127,7 @@ strings:
     shortVersion:        2020.01.1
     versionedName:       Ash OS
     shortVersionedName:  Ash OS
-    bootloaderEntryName: Generic
+    bootloaderEntryName: Ash OS
 
 # These images are loaded from the branding module directory.
 #
@@ -175,10 +175,11 @@ images:
 # branding component also ships a stylesheet.qss. Then they are
 # the corresponding CSS attributes of #sidebarApp.
 style:
-   sidebarBackground:    "#292F34"
-   sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#292F34"
-   sidebarTextHighlight: "#D35400"
+   sidebarBackground:    "#18125"
+   sidebarText:          "#CDD6F4"
+   sidebarTextSelect:    "#1E1E2E"
+   sidebarSelect:        "#1E1E2E"
+   sidebarTextHighlight: "#CBA6F7"
 
 ### SLIDESHOW
 #
