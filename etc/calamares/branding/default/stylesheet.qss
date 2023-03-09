@@ -33,7 +33,7 @@ The examples are not exhaustive.
 
 #mainText{
 	font : bold 16px;
-  color: #181825;
+  color: #cba6f7;
 }
 
 #sidebarApp {
@@ -49,11 +49,13 @@ The examples are not exhaustive.
 
 QWidget {
 	font: 16px;
+  background-color: #1e1e2e;
+  color: #cdd6f4;
 }
 
 QTextEdit {
-  background-color: #1e1e2e;
-  color: #181825;
+  /* background-color: #1e1e2e; */
+  color: #cdd6f4;
 }
 QListView {
   /* background-color: #cba6f7; */
@@ -75,8 +77,8 @@ QListWidget::item:alternate {
 
 QPushButton {
     font : 16px;
-    /* background-color: #cba6f7; */
-    color: #181825;
+    background-color: #cba6f7;
+    color: #11111b;
 }
 
 QDialogButtonBox {
