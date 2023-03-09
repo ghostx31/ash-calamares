@@ -57,9 +57,6 @@ QTextEdit {
   /* background-color: #1e1e2e; */
   color: #cdd6f4;
 }
-QListView {
-  /* background-color: #cba6f7; */
-}
 QDialogButtonBox {
 }
 QAbstractSpinBox {
@@ -90,8 +87,8 @@ QDialogButtonBox {
 
 QListView {
 		font: 16px;
-    color: #181825;
-    /* background-color: #cba6f7; */
+    color: #cdd6f4;
+    background-color: #45475a; 
 }
 
 
@@ -99,6 +96,8 @@ QListView {
 
 QLineEdit#LE_TestKeyboard {
 	font: 16px;
+  background-color: #45475a;
+  color: #cdd6f4;
 }
 
 QLineEdit#m_passphraseLineEdit, QLineEdit#vgName,
