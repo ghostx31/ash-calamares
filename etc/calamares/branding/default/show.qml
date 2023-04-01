@@ -98,7 +98,7 @@ Presentation
     anchors.verticalCenterOffset: 0
 
     Image {
-        id: background4
+        id: background5
         source: "5.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
@@ -114,7 +114,7 @@ Presentation
     anchors.verticalCenterOffset: 0
 
     Image {
-        id: background4
+        id: background6
         source: "6.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
@@ -130,7 +130,7 @@ Presentation
     anchors.verticalCenterOffset: 0
 
     Image {
-        id: background4
+        id: background7
         source: "8.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
